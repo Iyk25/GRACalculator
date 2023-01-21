@@ -115,7 +115,9 @@ int main (){
     }
 
   else{
-    printf("End of program, check salary, i have also done my first commit in git ");
+    printf("End of program, check salary, i have also done my first commit in git \n ");
+
+    printf(" I will have to start praying ");
 
 
 }
