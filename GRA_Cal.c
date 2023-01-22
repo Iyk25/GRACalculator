@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-
-
 		
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,7 +22,7 @@ int main (){
     printf(" Input your monthly salary \n");
     scanf("%f", &salary);
 
-    if  (salary <= 319)  // No tax bracket
+ if  (salary <= 319)  // No tax bracket
 
        {
 
@@ -47,7 +45,7 @@ int main (){
 
         }
 
-   else  if (salary > 319 && salary <= 539) // tax is in 3rd range
+  else  if (salary > 319 && salary <= 539) // tax is in 3rd range
 
       {
 
@@ -60,7 +58,7 @@ int main (){
       }
 
 
-      else if (salary >319 && salary-539 >0 && salary-539<3000){ // tax is in 4th range
+   else if (salary >319 && salary-539 >0 && salary-539<3000){ // tax is in 4th range
 
        tax1= 0.05 *100;
        tax2= 0.1 * 120;
@@ -71,7 +69,7 @@ int main (){
 
       }
 
-    else if (salary>319 && salary-539 >0 && salary-539>=3000 && salary-3539>=0 && salary-3539 <16421) { // tax is in 5th range
+  else if (salary>319 && salary-539 >0 && salary-539>=3000 && salary-3539>=0 && salary-3539 <16421) { // tax is in 5th range
 
       tax1= 0.05 *100;
        tax2= 0.1 * 120;
@@ -84,7 +82,7 @@ int main (){
     }
 // All code above tried and tested okay!!!!!!
 
-    else if (salary>319 && salary-539 >0 && salary-539>=3000 && salary-3539>0 && salary-3539 >=16421 && salary-19960 <= 0){ // tax is in 6th range
+ else if (salary>319 && salary-539 >0 && salary-539>=3000 && salary-3539>0 && salary-3539 >=16421 && salary-19960 <= 0){ // tax is in 6th range
 
        tax1= 0.05 *100;
        tax2= 0.1 * 120;
@@ -96,11 +94,9 @@ int main (){
      printf("tax applied = %.2fghs \n", sum);
 
 
-
-
     }
 
-    else if (salary>319 && salary-539 >0 && salary-539>=3000 && salary-3539>0 && salary-3539>16421 && salary-19960>0){ // tax is in 6th range
+  else if (salary>319 && salary-539 >0 && salary-539>=3000 && salary-3539>0 && salary-3539>16421 && salary-19960>0){ // tax is in 6th range
 
        tax1= 0.05 *100;
        tax2= 0.1 * 120;
@@ -119,7 +115,7 @@ int main (){
 
     printf(" I will have to start praying ");
 
-    printf("Newtest Branch Creatiion");
+    printf("Newtest Branch Creation");
     
     
 
